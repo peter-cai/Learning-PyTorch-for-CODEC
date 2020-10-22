@@ -1,10 +1,11 @@
 
-CODEC是**CO**ding and **DEC**的缩写，是面向视频等多媒体的编解码技术。
+CODEC是**CO**ding and **DEC**oding的缩写，是面向视频等多媒体的编解码技术。
 随着视频采集设备不断发展，为人们的生活、娱乐、工作提供了大量高动态范围、宽色域的视频，据估计，互联网上有80%的数据信息都来源于视频
 然而，尽管信息通信技术也在不断发展，但由于Jevons悖论的作用，视频存储和传输的压力仍然巨大，因此CODEC技术仍需不断更新和发展
 研究和制定CODEC的标准组织包括ISO/IEC的MPEG和ITU的VCEG（联合专家组JVET），同时也包括中国的AVS，还有以Google等企业发起的AOM
 CODEC的标准研究已有几十年，最近的标准版本是H.266/VVC，以及AVS所推出的AVS3
-基于神经网络的智能算法是CODEC当下的焦点研究方向，以实现模块替换或整体替换传统基于块的方法
+传统的基于块的CODECC方法流程包括块划分、帧内/间预测、变换、量化、熵编码等技术过程，但传统方法在保证计算效率情况下的编码性能提升已十分有限
+基于神经网络的智能算法是CODEC当下的焦点研究方向，以实现模块替换或整体替换传统方法
 该Repository是采用PyTorch作为工具来进行CODEC算法实现，适合Pytorch和CODEC编程的入门
 
 *Note: Jevons悖论：“The efficiency with which a resource is used tends to increase (rather than decrease) the rate of consumption of that resource."*
